@@ -1,0 +1,238 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "How are you", "Is anyone there?", "Good day","How do you do","What's up","Hey","Good morning","Good evening" ],
+      "responses": [ "Hello", "Good to see you again", "Hi there, how can I help?","good, how can I help you?","Good morning","Good evening","Hey there ","Welcome" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","See you soon","Talk to you later","Take care" ],
+      "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon.","We are here to help you at any time","Take care of yourself and your plants","Have a good day" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you","Thank you very much","That's helpful", "Awesome, thanks", "Thanks for helping me","Thanks for your help" ],
+      "responses": [ "My pleasure", "Welcome","You're Welcome","I am happy to help you","I am here to help you at any time" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Ghiras_app",
+      "patterns": [ "What is Ghiras application?","What is Ghiras","Give me a brief description of Ghiras application" ],
+      "responses": [ " a smart agriculture platform powered by Internet of Things and Artificial Intelligence that supports soil sustainability and plant care" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Ghiras_features ",
+      "patterns": [ "What are the most important features in Ghiras application?","What makes Ghiras application special","What are the features of the application" ],
+      "responses": [ "There are a variety of features, including a user profile, plant records, a community to collaborate, remote sensor monitoring, and irrigation control. Moreover, an AI-based chatbot and a tool for diagnosing plant diseases are developed to provide timely assistance. Additional services like booking plant specialist consultations." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "who_is_Leafy ",
+      "patterns": [ "who are you?","What is your name?"],
+      "responses": [ "My name is LEAFY, I am here to help you anytime" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "irrigation",
+      "patterns": [ "How often should I water plants?", "Irrigation frequency?", "When should I water plants?","When do I water my plants?", "When should crops be watered? ","How do I know the right time to water plant","What is the right time to watering plants","Does the plant need water more in the summer","Do all plants need the same amount of water","How many days a week I should water the plant","How many days a week","How many days" ],
+      "responses": [ "Irrigation time depends on several factors, including the type of crop, temperature, and humidity. Soil moisture must be monitored and water replaced according to need. It is preferable to water vegetables and fruits every morning and evening in the summer, while it is sufficient to water grains and beans once every three days. Crops’ need for water decreases in the winter due to the decrease in water. Temperatures where it is sufficient to water vegetables and fruits once every 3-4 days" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "fertilizers",
+      "patterns": [ " Fertilizer", "fertilization", "soil nutrition", "what are the most appropriate types of fertilizers for growing vegetables", "when to fertilize crops?" ],
+      "responses": [ "The best types of fertilizers for growing vegetables are nitrogen and potassium fertilizers. You can use poultry manure, cow manure, or liquid cucumber fertilizer. 1 At the beginning of planting: fertilize the field a week before planting the seeds. 2 Plant growth: additional fertilization a month after germination. 3 Fruit formation: fertilize after the fruit forms. At 3 weeks 4 before harvest: Last fertilization 3 weeks before harvest" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "vegetable diseases",
+      "patterns": [ " What are the most important common vegetable diseases, and how can we combat fruit wilt disease? ","vegetable diseases","what is vegetable diseases" ],
+      "responses": [ "The most important vegetable diseases are: gray mold, leaf wilt, and black mold. They must be controlled with appropriate fungicides and avoiding excess moisture. Fruit wilt disease causes a decrease in plant productivity and can be controlled by spraying fungicides such as enzymes and not planting sensitive varieties. Excess moisture must be avoided and plants should be ventilated." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Apple fruit",
+      "patterns": [ " How to grow apples? ","How to plant apples","How can i plant apples","What are the correct steps for apple cultivation","What are the instructions when planting apples","How to take care of apples" ],
+      "responses": [ " It is preferable to plant apple trees in rich, open soil and water them regularly. The bushes are spaced two meters apart" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "olives",
+      "patterns": [ " How to choose the best olive varieties? " ,"Olive cultivation","The most important tips when planting olives","The most important instructions when planting olives"],
+      "responses": [ "Olive varieties vary in their productivity and resistance to diseases and the environment. Varieties of medium size, high production and quality such as Tunisian and Tasmanian are suitable for our climate" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "onions",
+      "patterns": [ " When should onions be planted? ","Can I grow onions?","What is the right time to grow onions","What is the right time for planting onions","What are the correct steps in onion cultivation","The most important instructions when planting onions" ],
+      "responses": [ "Onions are planted in the winter until the beginning of spring to give a good crop during the summer. Seeds are spaced 5 cm apart in separate rows" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "cucumber",
+      "patterns": [ " How can cucumber cultivation be protected from diseases? " ,"What is the correct way for planting the cucumber","How to plant the cucumber","What are the important instructions to preserve the cucumber"],
+      "responses": [ "Insecticides should be sprayed every two weeks to prevent gray mold. Use fungicides to control leaf wilt. Sick plants should also be emptied from the field" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "potatoes",
+      "patterns": [ "Can potatoes be grown at any time?","What is the correct way for planting the potatoes","What is the potato season","The most important instructions when planting potatoes","How many times I water the potatoes","How much water is appropriate for potatoes","What is the right place to grow potatoes","Does potatoes need sunlight" ],
+      "responses": [ " Given that potatoes need low temperatures, the best time to plant them is the fall and winter. It is also preferable to choose fertile soil and irrigate it regularly." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "tomatoes",
+      "patterns": [ " What are the most important procedures to get a good crop of tomatoes? ","What is the correct way for planting tomatoes","The most important instructions when planting tomatoes","How many times I water the tomatoes" ],
+      "responses": [ "Important measures include: choosing productive varieties, using appropriate fertilizers, getting rid of weeds, regular irrigation, and controlling insects and diseases with appropriate pesticides." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "cultivation",
+      "patterns": [ " What are the most important methods of growing leafy vegetables?","How to plant leafy vegetables","Where are the leafy vegetables cultivated","what is the basic needs of leafy vegetables","Leafy vegetables" ],
+      "responses": [ "Leafy vegetables such as spinach and cabbage can be grown in pots or piles in the garden or on balconies. The seeds are spaced slightly and watered regularly depending on the temperature." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "grapes",
+      "patterns": [ "How to choose the best varieties for growing grapes","what is the best varieties for growing grapes","what is the best type of grapes" ],
+      "responses": [ "It is recommended to choose short-tent varieties such as Rivera, Ruby and Dioko for ease of cultivation. Fast-fruiting varieties such as Sonica and Victoria are preferred" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "oranges",
+      "patterns": [ "When is it preferable to plant orange trees?" ,"What is the oranges season","What is the appropriate temperature for oranges","The most important tips when planting oranges","The most important instructions when planting oranges","What is the right time to grow oranges"],
+      "responses": [ "It is preferable to plant orange trees in the fall and winter seasons, when the temperature is suitable for seedling growth, and soil rich in nutrients must be chosen." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "pomegranate",
+      "patterns": [ "How to care for pomegranate trees?","The most important tips when planting pomegranate","What is the pomegranate season","How to plant pomegranate","How can I plant the pomegranate" ],
+      "responses": [ " Pomegranate trees should be fertilized twice a year with organic fertilizers. Pruning dead or overlapping branches. It must also be protected from direct sunlight in the summer","It is preferable to plant pomegranate trees in summer season" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "arboriculture",
+      "patterns": [ " What are the requirements for fruit trees to get a good crop? ","What are the instructions when planting fruits","How do we care about fruit trees","The correct way to take care of fruit trees"],
+      "responses": [ "Fruit trees need fertile soil, good ventilation, and full sun exposure. It also needs regular irrigation and annual fertilization with appropriate organic or chemical fertilizers" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Pests control",
+      "patterns": [ " Pest control, how can I control pests, what are the best pest control methods" ],
+      "responses": [ " Spraying appropriate insecticides regularly, using traps and repellents, encouraging natural enemies of insects, removing weeds and disposing of waste, pest control is an important part of agriculture." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "organic_farming",
+      "patterns": [ "What is organic farming? ","What are the characteristics of organic farming","What is the most important advantage in organic farming" ],
+      "responses": [ "Organic farming is an environmentally friendly method of producing food without the use of chemical pesticides or artificial fertilizers. It depends on recycling natural resources and achieving a balance in ecosystems","The most important advantage in organic farming is producing food without the use of chemical pesticides or artificial fertilizers" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "indoor_plants",
+      "patterns": [ "The most popular types of houseplants?","What are the plants that can be planted at home and indoor places","what is most popular indoor plants","What is the differents types of indoor plants" ],
+      "responses": [ "The most famous types of houseplants are: cottonseeds, oaks, ferns, elephants, cantaloupes, palm leaves, and peaches. They tolerate indoor conditions and give a natural atmosphere." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "soil_types",
+      "patterns": [ " The most important types of soil suitable for agriculture? " ],
+      "responses": [ "Clay soil: rich in nutrients and needs mulching. Sandy soil: suitable for low-water crops with the addition of organic materials. Stony soil: needs cultivation and the addition of fertilizers to become suitable for agriculture." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "toxic_plants",
+      "patterns": [ "What plants are poisonous to cats, plants poisonous to cats","What are the harmful plants to cats"],
+      "responses": [ "There are some plants that may be toxic to cats. Lotus: contains toxic alkaloids. Olive tree: may lead to digestive disorders. Eucalyptus leaves: particularly toxic to cats. Oleander: may cause severe intestinal irritation. Cherry leaves: contain toxins that may cause death. Some types of flowers, such as sunflowers, may cause poisoning" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "target",
+      "patterns": [ "Who is the target group in Ghiras application?","Is there a targeted group in Ghiras application?","The targeted people in Ghiras application" ],
+      "responses": [ "Plant owners, plant specialists, and the Ministry of Agriculture and Water office." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "soil_fertility",
+      "patterns": [ "How can soil fertility be improved?","What are the important instructions in soil fertility?","What steps should be followed in soil fertility" ],
+      "responses": [ "1. Adding organic matter: Organic matter can be added to the soil by adding compost, animal manure, or decomposed leaves. 2.Fertilization: Chemical or organic fertilizers can be added to provide nutrients for plants. 3.Crop rotation: Different crops can be planted in the same soil each year to prevent nutrient depletion" ],
+      "context": [ "" ]
+    },
+
+    {
+      "tag": "Indoor Plants",
+      "patterns": [ "What are the easiest indoor plants to care? " ],
+      "responses": [ "Cactus,Sansevieria,Monstera,ZZ Plant,and Pothos." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Suitable soil",
+      "patterns": [ "What kind of soil does my plant need?" ,"What is the appropriate soil for plants"],
+      "responses": [ "Most plants prefer well-draining soil." ],
+      "context": [ "" ]
+    },
+
+
+    {
+      "tag": "agricultural techniques",
+      "patterns": [ "What are some modern agricultural techniques?" ],
+      "responses": [ "Hydroponics: This is the cultivation of plants without soil, using a nutrient solution.Precision agriculture: This is the use of advanced technologies to manage agriculture, such as using sensors and aerial imagery to determine crop water and nutrient requirements.Organic agriculture: This is the cultivation of plants without using chemicals, such as pesticides and fungicides." ],
+      "context": [ "" ]
+    },
+
+    {
+      "tag": "challenges",
+      "patterns": [ "What are the challenges facing agriculture?" ,"What are the new technologies used in agriculture"],
+      "responses": [ "Climate change, water scarcity, land degradation, pests and diseases" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "control disease",
+      "patterns": [ "How can pests and diseases be controlled in agriculture?","How can I deal with plant diseases","How to reduce plant diseases" ],
+      "responses": [ "The best way to control pests and diseases is to prevent them by using good agricultural practices, such as biological control beneficial organisms, such as insects and fungi, can be used to control pests and diseases also chemical control pesticides and fungicides can be used to control pests and diseases, but they should be used carefully to avoid negative environmental impacts." ],
+      "context": [ "" ]
+    },
+
+    {
+      "tag": "fertile soil",
+      "patterns": [ "What are the most important characteristics of fertile soil?","How is the soil good and ready for cultivation","What is the appropriate soil for cultivation" ],
+      "responses": [ "Composition: Soil should contain a good proportion of sand, silt, and clay to provide aeration, drainage, and water and nutrient availability for plants.Organic matter: Organic matter improves soil fertility by providing nutrients and improving soil structure.pH: Soil should be in a pH range suitable for plant growth, typically between 6 and 7.Nutrients: Soil should contain the essential nutrients for plants, such as nitrogen, phosphorus, and potassium." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "moist",
+      "patterns": [ "What are the signs that the soil is moist?","What are the characteristics of moist soil" ],
+      "responses": [ "1. The soil does not stick to your hands when you squeeze it.2. The soil leaves a slight mark on your finger when you touch it.3. The soil looks dark in color.4. The plants are growing well." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "dry",
+      "patterns": [ "What are the signs that the soil is dry?","What are the characteristics of dry soil" ],
+      "responses": [ "1.The soil looks light in color.2.The soil crumbles easily.3.The leaves of the plants are wilting." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "waterlogged",
+      "patterns": [ "What are the signs that the soil is waterlogged?","hat are the characteristics of waterlogged soil" ],
+      "responses": [ "1.The soil looks shiny.2.Water is pooling on the surface of the soil.3.The leaves of the plants are wilting." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "sensors",
+      "patterns": [ "What types of sensors does Ghiras application use for measurement?","What are the sensors used in Ghiras","What is the information that the sensors collect in the Ghiras application" ],
+      "responses": [ "Ghiras application provides measurements for NPK, PH, and moisture level" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "pests and diseases",
+      "patterns": [ "What are some common pests and diseases in agriculture?","What are the most important diseases in agriculture","What are the diseases in agriculture" ],
+      "responses": [ "Insects: Such as aphids, whiteflies, and beetles.Fungal diseases: Such as powdery mildew and rust.Bacterial diseases: Such as bacterial wilt.Viruses: Such as tobacco mosaic virus." ],
+      "context": [ "" ]
+    }
+
+  ]
+}
